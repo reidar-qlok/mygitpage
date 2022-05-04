@@ -94,5 +94,4 @@ function Privacy() {
     </>
   );
 }
-
 export default App;
