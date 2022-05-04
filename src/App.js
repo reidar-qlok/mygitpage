@@ -31,7 +31,7 @@ function Home() {
       </nav>
       <main>
         <h2>Welcome to the homepage</h2>
-        <p>You will get more information later..</p>
+        <p>You will get more information later</p>
       </main>
     </>
   );
