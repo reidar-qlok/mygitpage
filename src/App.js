@@ -27,6 +27,9 @@ function Home() {
           <li>
             <Link to="/mygitpage/privacy">Privacy</Link>
           </li>
+          <li>
+            <Link to="/mygitpage/work">Work</Link>
+          </li>
         </ul>
       </nav>
       <main>
@@ -47,6 +50,9 @@ function About() {
           <li>About</li>
           <li>
             <Link to="/mygitpage/privacy">Privacy</Link>
+          </li>
+          <li>
+            <Link to="/mygitpage/work">Work</Link>
           </li>
         </ul>
       </nav>
@@ -86,11 +92,38 @@ function Privacy() {
             <Link to="/mygitpage/about">About</Link>
           </li>
           <li>Privacy</li>
+          <li>
+            <Link to="/mygitpage/work">Work</Link>
+          </li>
         </ul>
       </nav>
       <main>
         <h2>Privacy</h2>
         <p>We are not private</p>
+      </main>
+    </>
+  );
+}
+function Work() {
+  return (
+    <>
+      <nav>
+        <ul className="my-list">
+          <li>
+            <Link to="/mygitpage/">Home</Link>
+          </li>
+          <li>
+            <Link to="/mygitpage/about">About</Link>
+            <li>
+            <Link to="/mygitpage/Privacy">Privacy</Link>
+          </li>
+            Work
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Work</h2>
+        <p>We are working</p>
       </main>
     </>
   );
