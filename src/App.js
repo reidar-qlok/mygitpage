@@ -91,7 +91,7 @@ function Privacy() {
       </nav>
       <main>
         <h2>Privacy</h2>
-        <p>We are not private.</p>
+        <p>We are not private....</p>
       </main>
     </>
   );
